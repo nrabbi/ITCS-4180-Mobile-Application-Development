@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nrabbi.studentprofile.selectAvatar">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        tools:layout_editor_absoluteY="3dp">
+
+        <ImageView
+            android:id="@+id/male_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/female_3"
+            android:layout_marginEnd="49dp"
+            android:layout_marginRight="49dp"
+            app:srcCompat="@drawable/avatar_m_1"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+        <ImageView
+            android:id="@+id/female_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/female_1"
+            android:layout_alignStart="@+id/female_1"
+            android:layout_below="@+id/female_1"
+            android:layout_marginTop="31dp"
+            app:srcCompat="@drawable/avatar_f_2"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="361dp" />
+
+        <ImageView
+            android:id="@+id/female_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="58dp"
+            app:srcCompat="@drawable/avatar_f_1"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="134dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:fontFamily="monospace"
+            android:text="Select your Avatar"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <ImageView
+            android:id="@+id/female_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/female_2"
+            android:layout_alignRight="@+id/female_2"
+            android:layout_below="@+id/female_2"
+            android:layout_marginTop="31dp"
+            app:srcCompat="@drawable/avatar_f_3" />
+
+        <ImageView
+            android:id="@+id/male_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/male_3"
+            android:layout_alignStart="@+id/male_3"
+            android:layout_alignTop="@+id/female_2"
+            app:srcCompat="@drawable/avatar_m_2" />
+
+        <ImageView
+            android:id="@+id/male_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/male_2"
+            android:layout_alignStart="@+id/male_2"
+            android:layout_alignTop="@+id/female_1"
+            app:srcCompat="@drawable/avatar_m_3" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

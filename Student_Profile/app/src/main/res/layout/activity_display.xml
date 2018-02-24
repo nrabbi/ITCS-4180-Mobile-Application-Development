@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nrabbi.studentprofile.DisplayActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/moodOutput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/moodLabel"
+            android:layout_alignBottom="@+id/moodLabel"
+            android:layout_alignLeft="@+id/departmentOutput"
+            android:layout_alignStart="@+id/departmentOutput"
+            android:text="placeholder"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/departmentOutput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/moodLabel"
+            android:layout_alignLeft="@+id/avatar_selection"
+            android:layout_alignStart="@+id/avatar_selection"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="placeholder"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/emailOutput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/departmentLabel"
+            android:layout_alignLeft="@+id/departmentOutput"
+            android:layout_alignStart="@+id/departmentOutput"
+            android:text="placeholder@example.com"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/moodLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/departmentLabel"
+            android:layout_alignStart="@+id/departmentLabel"
+            android:layout_below="@+id/departmentLabel"
+            android:layout_marginTop="13dp"
+            android:text="Mood:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/departmentLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/emailLabel"
+            android:layout_alignStart="@+id/emailLabel"
+            android:layout_below="@+id/emailLabel"
+            android:layout_marginTop="16dp"
+            android:text="Department:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameLabel"
+            android:layout_alignStart="@+id/nameLabel"
+            android:layout_centerVertical="true"
+            android:text="Email:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/avatar_selection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            app:srcCompat="@drawable/select_avatar" />
+
+        <TextView
+            android:id="@+id/nameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/avatar_selection"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="104dp"
+            android:text="Name:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nameOutput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nameLabel"
+            android:layout_alignBottom="@+id/nameLabel"
+            android:layout_alignLeft="@+id/emailOutput"
+            android:layout_alignStart="@+id/emailOutput"
+            android:text="placeholder"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/emojiSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/moodOutput"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            app:srcCompat="@drawable/happy" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
