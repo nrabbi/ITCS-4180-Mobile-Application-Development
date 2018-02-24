@@ -2,3 +2,6 @@
 
 ### Week 1
 * Area Calculator
+
+### Week 2
+* Student Profile
