@@ -7,7 +7,7 @@
 * Student Profile
 
 ### Week 3
-* Password Genera†or
+* Password Generator
 * Contact Book
 
 ### Week 4
