@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--In Class Assignment #1
+    activity_main.xml
+    Nazmul Rabbi
+    Dyrell Cole-->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nrabbi.areacalculator.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/answerL"
+        android:layout_width="match_parent"
+        android:layout_height="507dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp">
+
+        <TextView
+            android:id="@+id/shapeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit-2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Select Shape"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/answer"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/answer"
+            tools:layout_editor_absoluteY="174dp" />
+
+        <EditText
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/reset"
+            android:layout_marginBottom="9dp"
+            android:layout_toEndOf="@+id/triangle"
+            android:layout_toRightOf="@+id/triangle"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="409dp" />
+
+        <ImageView
+            android:id="@+id/square"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/reset"
+            android:layout_alignStart="@+id/reset"
+            android:layout_below="@+id/edit-2"
+            android:layout_marginTop="68dp"
+            app:srcCompat="@drawable/square"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="217dp" />
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/square"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            app:srcCompat="@drawable/circle"
+            tools:layout_editor_absoluteX="307dp"
+            tools:layout_editor_absoluteY="217dp" />
+
+        <ImageView
+            android:id="@+id/triangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/length-2"
+            android:layout_alignStart="@+id/length-2"
+            android:layout_alignTop="@+id/square"
+            app:srcCompat="@drawable/triangle"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="217dp" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Clear"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="530dp" />
+
+        <Button
+            android:id="@+id/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/square"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:text="Calculate"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+        <TextView
+            android:id="@+id/length-2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edit-2"
+            android:layout_alignBottom="@+id/edit-2"
+            android:layout_alignLeft="@+id/length-1"
+            android:layout_alignStart="@+id/length-1"
+            android:text="Length 2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="108dp" />
+
+        <EditText
+            android:id="@+id/edit-2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edit-1"
+            android:layout_alignStart="@+id/edit-1"
+            android:layout_below="@+id/edit-1"
+            android:layout_marginTop="31dp"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName|number|numberDecimal"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="98dp" />
+
+        <TextView
+            android:id="@+id/length-1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edit-1"
+            android:layout_alignBottom="@+id/edit-1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:text="Length 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="25dp" />
+
+        <EditText
+            android:id="@+id/edit-1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number|numberDecimal"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
