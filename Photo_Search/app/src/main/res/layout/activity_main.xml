@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nrabbi.inclass04.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/goBtn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@android:color/background_light"
+            tools:layout_editor_absoluteY="85dp" />
+
+        <Button
+            android:id="@+id/goBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/display"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/display"
+            android:text="@string/searchButtonText" />
+
+        <EditText
+            android:id="@+id/keywordInput"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/progressInfo"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/progressInfo"
+            android:ems="10"
+            android:hint="@string/hint"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="56dp" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/goBtn"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/goBtn"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:background="@android:color/background_light"
+            android:drawableRight="@mipmap/next" />
+
+        <Button
+            android:id="@+id/prevBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@mipmap/prev" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

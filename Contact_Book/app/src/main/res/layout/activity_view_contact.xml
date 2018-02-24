@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.nrabbi.itcs4180.hw1.ViewContact">
+
+
+        <ImageView
+            android:id="@+id/viewprofilephoto"
+            android:layout_width="165dp"
+            android:layout_height="124dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/add_photo" />
+
+        <TextView
+            android:id="@+id/viewfirstname"
+            android:layout_width="172dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:text="@string/input_first"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/viewlastname"
+            app:layout_constraintTop_toBottomOf="@+id/viewnickname" />
+
+        <TextView
+            android:id="@+id/viewlastname"
+            android:layout_width="162dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:text="@string/input_last"
+            android:textSize="18sp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewnickname" />
+
+        <TextView
+            android:id="@+id/viewcompany"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="23dp"
+            android:ems="10"
+            android:text="@string/input_company"
+            app:layout_constraintLeft_toRightOf="@+id/txtCompany"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewphone"
+            app:layout_constraintHorizontal_bias="0.075" />
+
+        <TextView
+            android:id="@+id/viewphone"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="63dp"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:text="@string/input_phone"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toRightOf="@+id/viewbirthday"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewlastname" />
+
+        <TextView
+            android:id="@+id/viewemail"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:text="@string/input_email"
+            app:layout_constraintLeft_toRightOf="@+id/txtEmail"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewcompany"
+            app:layout_constraintHorizontal_bias="0.08" />
+
+        <TextView
+            android:id="@+id/viewurl"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:text="@string/input_URL"
+            app:layout_constraintLeft_toRightOf="@+id/txtURL"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewemail"
+            app:layout_constraintHorizontal_bias="0.08" />
+
+        <TextView
+            android:id="@+id/viewaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:text="@string/input_address"
+            app:layout_constraintLeft_toRightOf="@+id/txtAddress"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewurl"
+            app:layout_constraintHorizontal_bias="0.08" />
+
+        <TextView
+            android:id="@+id/viewbirthday"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:ems="10"
+            android:text="@string/input_Birthday"
+            android:textSize="18sp"
+            android:layout_marginLeft="64dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/viewfirstname" />
+
+        <TextView
+            android:id="@+id/viewnickname"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:ems="10"
+            android:text="@string/input_nickname"
+            android:textAlignment="center"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/viewprofilephoto" />
+
+        <TextView
+            android:id="@+id/viewskype"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:text="@string/input_skype"
+            app:layout_constraintLeft_toRightOf="@+id/txtskype"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewaddress"
+            app:layout_constraintHorizontal_bias="0.08" />
+
+        <TextView
+            android:id="@+id/viewtwitterurl"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:text="@string/input_twitterURL"
+            app:layout_constraintLeft_toRightOf="@+id/txtTwitter"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewskype"
+            app:layout_constraintHorizontal_bias="0.08" />
+
+        <TextView
+            android:id="@+id/viewfburl"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:text="@string/input_fb_URL"
+            app:layout_constraintLeft_toRightOf="@+id/txtFBurl"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewtwitterurl"
+            app:layout_constraintHorizontal_bias="0.08" />
+
+        <TextView
+            android:id="@+id/viewyoutube"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:text="@string/input_youtube"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintLeft_toRightOf="@+id/txtYoutube"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewfburl" />
+
+        <TextView
+            android:id="@+id/txtCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/show_company"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewbirthday" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/show_email"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCompany" />
+
+        <TextView
+            android:id="@+id/txtURL"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/show_url"
+            app:layout_constraintTop_toBottomOf="@+id/txtEmail"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/show_address"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtURL"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/txtskype"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/show_skype"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtAddress"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/txtFBurl"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/show_fburl"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtTwitter"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/txtYoutube"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/show_youtube"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtFBurl"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/txtTwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/show_twitter"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtskype"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

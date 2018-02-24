@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HW1</string>
+    <string name="create_new">Create New Contact</string>
+    <string name="edit_contact">Edit Existing Contact</string>
+    <string name="delete_contact">Delete Existing Contact</string>
+    <string name="display_contact">Display Existing Contact</string>
+    <string name="finish">Finish</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_first">First Name</string>
+    <string name="input_last">Last Name</string>
+    <string name="input_company">Company</string>
+    <string name="input_phone">Phone</string>
+    <string name="input_email">Email</string>
+    <string name="input_URL">URL</string>
+    <string name="input_address">Address</string>
+    <string name="input_Birthday">Birthday</string>
+    <string name="input_fb_URL">Facebook Profile URL</string>
+    <string name="input_twitterURL">Twitter Profile URL</string>
+    <string name="input_skype">Skype</string>
+    <string name="input_nickname">Nickname</string>
+    <string name="input_youtube">Youtube</string>
+    <string name="save">Save</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="show_company">Company :</string>
+    <string name="show_email">Email :</string>
+    <string name="show_url">Personal URL :</string>
+    <string name="show_youtube">Youtube :</string>
+    <string name="show_fburl">Facebook URL :</string>
+    <string name="show_twitter">Twitter URL :</string>
+    <string name="show_skype">Skype :</string>
+    <string name="show_address">Address :</string>
+</resources>
