@@ -1,4 +1,5 @@
 # ITCS 4180 : Mobile Application Development
+## Platform : Android
 
 ### Week 1
 * Area Calculator
