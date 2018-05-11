@@ -19,22 +19,20 @@
 
 ### Week 6
 * Top News Headlines
-
-### Week 7
 * Trivia
 
-### Week 8
+### Week 7
 * Weather Lookup
 
-### Week 9
+### Week 8
 * Contact Book Fragment
 
-### Week 10
+### Week 9
 * Interactive Forum
 * iTunes Top Paid Apps Fragment
 
-### Week 11
+### Week 10
 * Cloud Contact List
 
-### Week 12
+### Week 11
 * Trip Map
