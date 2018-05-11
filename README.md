@@ -19,3 +19,9 @@
 
 ### Week 6
 * Top News Headlines
+
+### Week 7
+* Trivia
+
+### Week 8
+* Weather Lookup

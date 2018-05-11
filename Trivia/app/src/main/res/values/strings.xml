@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="label_main_heading">Welcome to \nTrivia App</string>
+    <string name="label_loading_trivia">Loading Trivia</string>
+    <string name="label_connection_error">Connection error!</string>
+    <string name="label_trivia_ready">Trivia Ready</string>
+    <string name="button_retry">Retry</string>
+    <string name="button_exit">Exit</string>
+    <string name="button_start_trivia">Start</string>
+    <string name="button_try_again">Try Again</string>
+    <string name="label_time_left">Time Left:</string>
+    <string name="label_seconds">Seconds</string>
+    <string name="button_quit">Quit</string>
+    <string name="button_next">Next</string>
+    <string name="label_stats_heading">Trivia Stats</string>
+    <string name="label_correct_answers">Correct Answers</string>
+    <string name="label_not_all_correct">Try again and see if you can get all the correct answers!</string>
+    <string name="label_all_correct">Congratulations! You answered all the questions correctly!</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">API App</string>
+    <string name="sort_rating">Sort By Rating</string>
+    <string name="sort_popularity">Sort By Popularity</string>
+    <string name="sort_fav">Show Favorites</string>
+    <string name="exit">Quit</string>
+</resources>
