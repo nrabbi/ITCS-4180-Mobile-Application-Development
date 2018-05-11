@@ -16,3 +16,6 @@
 
 ### Week 5
 * News Congregator 
+
+### Week 6
+* Top News Headlines
