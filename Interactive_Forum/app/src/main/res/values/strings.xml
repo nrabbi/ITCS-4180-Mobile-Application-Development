@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">InClass08</string>
+    <string name="title_activity_message_threads">MessageThreads</string>
+    <string name="placeHolder">Place Holder</string>
+    <string name="return_to_main_page">Return to Main Page</string>
+    <string name="send_message">Send Message</string>
+    <string name="type_message_to_send">Type Message to Send</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_out">Log Out</string>
+    <string name="add_new_thread">Add New Thread</string>
+    <string name="user_name">User Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="delete_message">Delete Message</string>
+    <string name="delete_messsage">Delete Messsage</string>
+</resources>

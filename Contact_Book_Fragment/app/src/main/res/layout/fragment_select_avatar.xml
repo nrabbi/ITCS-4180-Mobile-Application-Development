@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nrabbi.inclass07.SelectAvatarFragment">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtSelectAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_avatar"
+            android:textSize="20sp"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="25dp"/>
+
+        <ImageView
+            android:id="@+id/imgGirl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/avatar_f_1"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtSelectAvatar"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+/>
+
+        <ImageView
+            android:id="@+id/imgGirl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/avatar_f_2"
+
+            app:layout_constraintTop_toBottomOf="@+id/imgGirl1"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+/>
+
+        <ImageView
+            android:id="@+id/imgGirl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/avatar_f_3"
+
+            app:layout_constraintTop_toBottomOf="@+id/imgGirl2"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+/>
+
+        <ImageView
+            android:id="@+id/imgBoy3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/avatar_m_3"
+
+            app:layout_constraintTop_toBottomOf="@+id/imgBoy2"
+            app:layout_constraintLeft_toRightOf="@+id/imgGirl3"
+            app:layout_constraintRight_toRightOf="parent"
+
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+/>
+
+        <ImageView
+            android:id="@+id/imgBoy2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/avatar_m_2"
+
+            app:layout_constraintTop_toBottomOf="@+id/imgBoy1"
+            app:layout_constraintLeft_toRightOf="@+id/imgGirl2"
+            app:layout_constraintRight_toRightOf="parent"
+
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+/>
+
+        <ImageView
+            android:id="@+id/imgBoy1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/avatar_m_1"
+
+            app:layout_constraintTop_toBottomOf="@+id/txtSelectAvatar"
+            app:layout_constraintLeft_toRightOf="@+id/imgGirl1"
+            app:layout_constraintRight_toRightOf="parent"
+
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</FrameLayout>

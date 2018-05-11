@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    // Dyrell reuse the firebase container we previously made to save time
+    "project_number": "818638088270",
+    "firebase_url": "https://inclass09-7b5f0.firebaseio.com",
+    "project_id": "inclass09-7b5f0",
+    "storage_bucket": "inclass09-7b5f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818638088270:android:6016281d40e9ca6e",
+        "android_client_info": {
+          "package_name": "com.example.nrabbi.inclass10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818638088270-mgjsdan314a6mq8mkfa7c28267c2h9o7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAELleFzLWEpYN-nDl7E0ghaMyCyNYBNeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
